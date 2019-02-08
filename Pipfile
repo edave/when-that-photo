@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scrapy = "*"
+inflection = {git = "https://github.com/hugovk/inflection"}
+jupyter = "*"
+matplotlib = "*"
+# fastai-vision = "*"
+nltk = "*"
+jupyter-contrib-nbextensions = "*"
+fastai = {editable = true,git = "https://github.com/fastai/fastai.git"}
+jupyterlab = "*"
+google-cloud = "*"
+bq-helper = {editable = true,git = "https://github.com/SohierDane/BigQuery_Helper"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"

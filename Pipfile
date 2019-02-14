@@ -11,7 +11,7 @@ matplotlib = "*"
 # fastai-vision = "*"
 nltk = "*"
 jupyter-contrib-nbextensions = "*"
-fastai = {editable = true,git = "https://github.com/fastai/fastai.git"}
+fastai = "1.0.42"
 jupyterlab = "*"
 google-cloud = "*"
 bq-helper = {editable = true,git = "https://github.com/SohierDane/BigQuery_Helper"}
